@@ -1,2 +1,2 @@
 # Web Projects
-- My CV (in Russian) - https://v-las.github.io/cv-ru/
+- [My CV (in Russian)](https://v-las.github.io/cv-ru/)
