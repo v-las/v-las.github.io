@@ -1,0 +1,13 @@
+body {
+    background-color: #f5f7fa;
+}
+li {
+    background-color: #fff;
+    color: #595959;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.projects-item-first {
+    color: yellow;
+}
