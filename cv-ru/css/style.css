@@ -2,18 +2,27 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: #f5f7fa;
 }
+.main-section {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: #fff;
+    margin: 40px auto;
+}
+
 .about-me-profession {
     font-size: 14px;
     font-weight: 700;
     color: #000;
 }
-li {
-    background-color: #fff;
-    color: #595959;
-    font-size: 14px;
-    line-height: 24px;
+.about-me-section {
 }
-
-.projects-item-first {
-    color: yellow;
+.my-projects-section {
+}
+.my-work-experience-section {
+}
+.my-education-section {
+}
+.sidebar-section {
+    background-color: #1E2939;
 }
