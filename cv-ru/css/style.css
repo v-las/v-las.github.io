@@ -4,7 +4,7 @@ body {
 }
 .main-section {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     width: 1200px;
     background-color: #fff;
     margin: 40px auto;
