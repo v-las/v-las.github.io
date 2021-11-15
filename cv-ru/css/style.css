@@ -33,12 +33,32 @@ body {
     width: 370px;
     padding: 40px 0;
 }
-.contacts-section {
+.contacts-section,
+.tech-skills-section,
+.soft-skills-section
+{
     margin: 50px 0 0 40px;
 }
-.tech-skills-section {
-
+.sidebar-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+    margin-bottom: 10px;
 }
-.soft-skills-section{
-
+/*contacts-section*/
+.contact-type {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    margin-right: 10px;
+}
+.contact-link {
+    color: #565e6a;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
 }
