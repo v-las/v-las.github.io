@@ -58,7 +58,21 @@ body {
 .contact-link {
     color: #565e6a;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+/*tech-skills-section*/
+.skills-list {
+    padding: 0 0 0 20px;
+}
+.skills-list-item {
+    color: #fb6d3a;
+}
+.skills-list-text {
+    color: white;
+    font-style: normal;
+    font-weight: normal;
     font-size: 14px;
     line-height: 24px;
 }
