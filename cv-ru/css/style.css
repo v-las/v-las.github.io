@@ -28,6 +28,10 @@ body {
 
 }
 /*sidebar-section*/
+img {
+    max-width: 370px;
+    height: auto;
+}
 .sidebar-section {
     background-color: #1E2939;
     width: 370px;
@@ -62,7 +66,7 @@ body {
     font-size: 14px;
     line-height: 24px;
 }
-/*tech-skills-section*/
+/*skills-section*/
 .skills-list {
     padding: 0 0 0 20px;
 }
