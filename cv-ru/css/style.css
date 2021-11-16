@@ -10,6 +10,59 @@ body {
     margin: 40px auto;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
+/*sidebar-section*/
+img {
+    max-width: 370px;
+    height: auto;
+}
+.sidebar-section {
+    background-color: #1E2939;
+    width: 370px;
+    padding: 40px 0;
+}
+.contacts-section,
+.tech-skills-section,
+.soft-skills-section
+{
+    margin: 50px 0 0 40px;
+}
+.sidebar-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+    margin-bottom: 10px;
+}
+/*contacts-section*/
+.contact-type {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    margin-right: 10px;
+}
+.contact-link {
+    color: #565e6a;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+/*skills-section*/
+.skills-list {
+    padding: 0 0 0 20px;
+}
+.skills-list-item {
+    color: #fb6d3a;
+}
+.skills-list-text {
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
 /*main-content-section*/
 .main-content-section {
     padding: 100px 90px;
@@ -83,49 +136,49 @@ body {
     line-height: 24px;
     color: black;
 }
-/*my-work-experience*/
-.my-work-experience-section {
+/*MWE - My work experience section*/
+.mwe-section {
     width: 525px;
 }
-.my-work-experience-company-block {
+.mwe-company-block {
     margin: 0 15px 0 0;
 }
-.my-work-experience-company {
+.mwe-company {
     color: #fb6d3a;
 }
-.my-work-experience-position {
+.mwe-position {
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
     margin: 0 0 10px 0;
 }
-.my-work-experience-time {
+.mwe-time {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
     color: #A8A8A8;
 }
-.my-work-experience-pipe {
+.mwe-pipe {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
     color: black;
 }
-.my-work-experience-duties {
+.mwe-duties {
     padding: 0 0 0 20px;
 }
-.my-work-experience-duty-item {
+.mwe-duty-item {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     color: #595959;
 }
-/*my-education*/
-.my-education-college-name {
+/*MEDU - My education section*/
+.medu-college-name {
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -133,7 +186,7 @@ body {
     color: #FB6D3A;
     margin: 0 0 10px 0;
 }
-.my-education-college-faculty {
+.medu-college-faculty {
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -141,7 +194,7 @@ body {
     color: #000000;
     margin: 0 0 10px 0;
 }
-.my-education-college-time {
+.medu-college-time {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -149,63 +202,10 @@ body {
     color: #A8A8A8;
     margin: 0 0 10px 0;
 }
-.my-education-college-time-pipe {
+.medu-college-time-pipe {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
     color: black;
-}
-/*sidebar-section*/
-img {
-    max-width: 370px;
-    height: auto;
-}
-.sidebar-section {
-    background-color: #1E2939;
-    width: 370px;
-    padding: 40px 0;
-}
-.contacts-section,
-.tech-skills-section,
-.soft-skills-section
-{
-    margin: 50px 0 0 40px;
-}
-.sidebar-title {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 27px;
-    color: white;
-    margin-bottom: 10px;
-}
-/*contacts-section*/
-.contact-type {
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 24px;
-    color: white;
-    margin-right: 10px;
-}
-.contact-link {
-    color: #565e6a;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-}
-/*skills-section*/
-.skills-list {
-    padding: 0 0 0 20px;
-}
-.skills-list-item {
-    color: #fb6d3a;
-}
-.skills-list-text {
-    color: white;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
 }
