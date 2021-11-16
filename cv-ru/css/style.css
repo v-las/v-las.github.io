@@ -136,41 +136,41 @@ img {
     line-height: 24px;
     color: black;
 }
-/*MWE - My work experience section*/
-.mwe-section {
+/*MWXP - My work experience section*/
+.mwxp-section {
     width: 525px;
 }
-.mwe-company-block {
+.mwxp-company-block {
     margin: 0 15px 0 0;
 }
-.mwe-company {
+.mwxp-company {
     color: #fb6d3a;
 }
-.mwe-position {
+.mwxp-position {
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
     margin: 0 0 10px 0;
 }
-.mwe-time {
+.mwxp-time {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
     color: #A8A8A8;
 }
-.mwe-pipe {
+.mwxp-pipe {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
     color: black;
 }
-.mwe-duties {
+.mwxp-duties {
     padding: 0 0 0 20px;
 }
-.mwe-duty-item {
+.mwxp-duty-item {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
