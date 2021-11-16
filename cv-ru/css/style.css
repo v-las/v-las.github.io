@@ -84,6 +84,9 @@ body {
     color: black;
 }
 /*my-work-experience*/
+.my-work-experience-section {
+    width: 525px;
+}
 .my-work-experience-company-block {
     margin: 0 15px 0 0;
 }
