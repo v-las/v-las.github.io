@@ -110,7 +110,16 @@ body {
     line-height: 15px;
     color: black;
 }
-.my-work-experience-duties
+.my-work-experience-duties {
+    padding: 0 0 0 20px;
+}
+.my-work-experience-duty-item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
 /*my-education*/
 .my-education-section {
 
