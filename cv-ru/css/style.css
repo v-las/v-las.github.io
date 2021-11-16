@@ -13,20 +13,105 @@ body {
 .main-content-section {
     padding: 100px 90px;
 }
-.about-me-profession {
-    font-size: 14px;
-    font-weight: 700;
+.main-content-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
     color: #000;
+    margin-bottom: 10px;
 }
+/*about-me-section*/
 .about-me-section {
-
+    margin: 0 0 40px 0;
 }
+.about-me-profession {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    margin: 0 0 20px 0;
+}
+.about-me-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000;
+    margin: 0 0 20px 0;
+}
+.about-me-description {
+    width: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #565e6a;
+}
+/*my-projects-section*/
 .my-projects-section {
-
+    margin: 0 0 50px 0;
 }
+.my-projects-list {
+    padding: 0 0 0 20px;
+}
+.my-projects-item {
+    color: #000;
+    font-weight: bold;
+}
+.my-projects-link {
+    color: #565e6a;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+.my-projects-text {
+    color: #565e6a;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 10px;
+}
+.my-projects-bracket {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+}
+/*my-work-experience*/
 .my-work-experience-section {
 
 }
+.my-work-experience-company {
+    color: #fb6d3a;
+}
+.my-work-experience-position {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+}
+.my-work-experience-time {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+.my-work-experience-pipe {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: black;
+}
+.my-work-experience-duties
+/*my-education*/
 .my-education-section {
 
 }
