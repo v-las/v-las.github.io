@@ -42,7 +42,7 @@ body {
     margin-right: 10px;
 }
 .contact-link {
-    color: rgba(0, 0, 0, 0.81);
+    color: rgba(0, 0, 0, 0.5);
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -53,7 +53,7 @@ body {
     padding: 0 0 0 20px;
 }
 .skills-list-item {
-    color: rgba(0, 0, 0, 0.81);
+    color: rgba(0, 0, 0, 0.5);
 }
 .skills-list-text {
     color: white;
@@ -69,6 +69,14 @@ body {
 .main-content-title {
     font-style: normal;
     font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.main-content-title-bracket {
+    font-style: normal;
+    font-weight: normal;
     font-size: 22px;
     line-height: 27px;
     color: #000;
