@@ -10,11 +10,6 @@ body {
     margin: 40px auto;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
-/*sidebar-section*/
-img {
-    max-width: 370px;
-    height: auto;
-}
 .sidebar-section {
     background-color: #1E2939;
     width: 370px;
@@ -136,6 +131,35 @@ img {
     line-height: 24px;
     color: black;
 }
+/*LANG - laguages*/
+.lang-section {
+    margin: 0 0 50px 0;
+}
+.lang-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+}
+.lang-level {
+    color: #fb6d3a;
+}
+.lang-pipe {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+}
+.lang-certificate {
+    padding: 0 0 10px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
 /*MWXP - My work experience section*/
 .mwxp-section {
     width: 525px;
@@ -179,6 +203,9 @@ img {
     color: #595959;
 }
 /*MEDU - My education section*/
+.medu-section{
+    margin: 0 0 50px 0;
+}
 .medu-college-name {
     font-style: normal;
     font-weight: bold;
