@@ -15,7 +15,7 @@ body {
     background-size: cover;
 }
 .sidebar-section {
-    background-color: rgba(12, 81, 115, 0.61);
+    background-color: rgba(12, 81, 115, 0.85);
     width: 370px;
     padding: 40px 0;
 }
@@ -53,7 +53,7 @@ body {
     padding: 0 0 0 20px;
 }
 .skills-list-item {
-    color: #fb6d3a;
+    color: rgba(0, 0, 0, 0.81);
 }
 .skills-list-text {
     color: white;
