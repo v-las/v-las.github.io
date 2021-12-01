@@ -9,9 +9,13 @@ body {
     background-color: #fff;
     margin: 40px auto;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    background-image: url('../img/cv_bg.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
 }
 .sidebar-section {
-    background-color: #131a34;
+    background-color: rgba(12, 81, 115, 0.61);
     width: 370px;
     padding: 40px 0;
 }
@@ -38,7 +42,7 @@ body {
     margin-right: 10px;
 }
 .contact-link {
-    color: rgba(96, 213, 255, 0.8);
+    color: rgba(0, 0, 0, 0.81);
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
