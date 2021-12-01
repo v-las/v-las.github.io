@@ -11,7 +11,7 @@ body {
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 .sidebar-section {
-    background-color: #1E2939;
+    background-color: #131a34;
     width: 370px;
     padding: 40px 0;
 }
@@ -38,7 +38,7 @@ body {
     margin-right: 10px;
 }
 .contact-link {
-    color: #565e6a;
+    color: rgba(96, 213, 255, 0.8);
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
