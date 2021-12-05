@@ -1,13 +1,14 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #f5f7fa;
+    background-color: #40b5df;
     background-image: url('../img/main-bg.jpg');
     height: 100%;
-}h1 {
+}
+h1 {
     font-style: normal;
     font-weight: bold;
     font-size: 45px;
     line-height: 55px;
     color: rgba(0, 0, 0, 0.5);
-    margin: 0 0 20px 0;
+    margin: 20px 0;
 }
