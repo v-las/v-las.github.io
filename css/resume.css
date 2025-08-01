@@ -293,7 +293,7 @@ body {
 .lang-certificate-text {
   font-weight: normal;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 4px;
   color: #a8a8a8;
   margin-bottom: 10px;
 }
@@ -301,7 +301,7 @@ body {
 .lang-certificate-link {
   font-weight: normal;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 4px;
   color: black;
   text-decoration: none;
 }
@@ -318,9 +318,10 @@ body {
 .medu-college-name {
   font-weight: bold;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 8px;
   color: #fb6d3a;
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .my-projects-project-block {
@@ -334,7 +335,7 @@ body {
 .medu-college-faculty {
   font-weight: bold;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 1px;
   color: #000;
   margin-bottom: 10px;
 }
