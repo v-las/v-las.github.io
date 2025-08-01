@@ -39,7 +39,9 @@ body {
   width: 100%;
 }
 
-.contacts-section {
+.contacts-section,
+.soft-skills-section,
+.tech-skills-section {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 20px 25px;
   border-radius: 12px;
@@ -90,14 +92,12 @@ body {
 .contact-button svg {
   width: 20px;
   height: 20px;
-  /* margin-right: 12px; */
   flex-shrink: 0;
   fill: #fb6d3a;
-  /* background-color: rgba(255, 255, 255); */
 }
 
 .icon-bg {
-  background-color: white;       /* фон, который просвечивается в трубке */
+  background-color: white; /* фон, который просвечивается в трубке */
   width: 23px;
   height: 23px;
   border-radius: 50%;
@@ -112,7 +112,6 @@ body {
   width: 20px;
   height: 20px;
 }
-
 
 .contact-extra {
   font-weight: normal;
@@ -150,6 +149,7 @@ body {
 
 .skills-list-item {
   margin-bottom: 6px;
+  color: #fb6d3a;
 }
 
 .skills-list-text {
@@ -190,6 +190,19 @@ body {
   line-height: 17px;
   color: #000;
   margin: 0 0 20px 0;
+}
+
+
+
+.about-me-profession-level {
+  color: #fb6d3a;
+}
+
+.about-me-profession-pipe {
+  font-weight: normal;
+  /* font-size: 16px; */
+  line-height: 20px;
+  color: black;
 }
 
 .about-me-name {
