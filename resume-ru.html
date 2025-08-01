@@ -1,124 +1,375 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Резюме — Влас Мастыкаш</title>
-  <link rel="shortcut icon" type="image/png" href="img/resume/favicon.svg" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/resume.css" />
-</head>
-<body>
-  <div class="main-section">
-    <aside class="sidebar-section">
-      <img width="370" src="img/resume/cv_photo.jpg" alt="Фото Влас Мастыкаш" />
-      <div class="contacts-section">
-        <h3 class="sidebar-title">Контакты:</h3>
-        <div><span class="contact-type">тел.:</span> <a class="contact-link" href="tel:+79136198392">+7 913 619 83 92</a><span> (Россия, Омск)</span></div>
-        <div><span class="contact-type">email:</span> <a class="contact-link" href="mailto:mastykash.vlas@gmail.com">mastykash.vlas@gmail.com</a></div>
-        <div><span class="contact-type">telegram:</span> <a class="contact-link" href="https://t.me/v_las" target="_blank" rel="noopener noreferrer">t.me/v_las</a></div>
-        <div><span class="contact-type">whatsapp:</span> <a class="contact-link" href="https://wa.me/79136198392" target="_blank" rel="noopener noreferrer">wa.me/79136198392</a></div>
-        <div><span class="contact-type">linkedin:</span> <a class="contact-link" href="https://www.linkedin.com/in/v-las/" target="_blank" rel="noopener noreferrer">linkedin.com/in/v-las/</a></div>
-      </div>
-      <div class="soft-skills-section">
-        <h3 class="sidebar-title">Личные качества:</h3>
-        <ul class="skills-list">
-          <li class="skills-list-item"><span class="skills-list-text">Усидчивый</span></li>
-          <li class="skills-list-item"><span class="skills-list-text">Внимательный</span></li>
-          <li class="skills-list-item"><span class="skills-list-text">Упорный</span></li>
-          <li class="skills-list-item"><span class="skills-list-text">Обучаемый</span></li>
-          <li class="skills-list-item"><span class="skills-list-text">Ответственный</span></li>
-        </ul>
-      </div>
-      <div class="tech-skills-section">
-        <h3 class="sidebar-title">Изучаю:</h3>
-        <ul class="skills-list">
-          <li class="skills-list-item"><span class="skills-list-text">DevTools</span></li>
-          <li class="skills-list-item"><span class="skills-list-text">PostgreSQL</span></li>
-          <li class="skills-list-item"><span class="skills-list-text">GitBash</span></li>
-          <li class="skills-list-item"><span class="skills-list-text">Charles</span></li>
-          <li class="skills-list-item"><span class="skills-list-text">Fiddler</span></li>
-          <li class="skills-list-item"><span class="skills-list-text">JMeter</span></li>
-          <li class="skills-list-item"><span class="skills-list-text">Android Studio</span></li>
-          <li class="skills-list-item"><span class="skills-list-text">Postman</span></li>
-          <li class="skills-list-item"><span class="skills-list-text">Python</span></li>
-        </ul>
-      </div>
-    </aside>
-    <div class="main-content-section">
-      <div class="about-me-section">
-        <h2 class="about-me-profession">Ручной тестировщик ПО</h2>
-        <h1 class="about-me-name">Влас Мастыкáш</h1>
-        <p class="about-me-description">
-          All work and no play makes Jack a dull boy All work and no play makes Jack a dull boy All work and no play makes Jack a dull boy All work and no play makes Jack a dull boy All work and no play makes Jack a dull boy All work and no play makes Jack a dull boy
-        </p>
-      </div>
-      <div class="my-projects-section">
-        <h3 class="main-content-title">Проекты <span class="main-content-title-bracket">—</span> GitHub</h3>
-        <ol class="my-projects-list">
-          <li class="my-projects-item">
-            <span class="my-projects-text">
-              <a href="https://github.com/v-las/sql-practice/tree/main/SQL-ex" class="my-projects-link" target="_blank" rel="noopener noreferrer">24 задачи | SQL-ex.ru</a> .................... <span class="my-projects-bracket">[</span>SQL<span class="my-projects-bracket">]</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Резюме — Влас Мастыкаш</title>
+    <link rel="shortcut icon" type="image/png" href="img/resume/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/resume.css" />
+  </head>
+  <body>
+    <div class="main-section">
+      <aside class="sidebar-section">
+        <img
+          width="370"
+          src="img/resume/cv_photo.jpg"
+          alt="Фото Влас Мастыкаш"
+        />
+        <div class="contacts-section">
+          <h3 class="sidebar-title">Контакты:</h3>
+          <a class="contact-button" href="tel:+79136198392">
+            <span class="icon-bg">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 1200 1200"
+                aria-hidden="true"
+                focusable="false"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+              >
+                <path
+                  d="M600,0C268.629,0,0,268.629,0,600s268.629,600,600,600
+        s600-268.629,600-600S931.371,0,600,0z M384.375,238.33c12.362-0.729,23.536,6.66,32.007,19.775l82.031,155.566
+        c8.637,18.434,3.729,38.172-9.155,51.343l-37.573,37.573c-2.319,3.178-3.845,6.757-3.882,10.693
+        c14.409,55.775,58.117,107.223,96.681,142.603c38.562,35.38,80.009,83.281,133.812,94.629c6.65,1.855,14.797,2.52,19.556-1.903
+        l43.652-44.458c15.068-11.421,36.866-16.956,52.954-7.617h0.732l148.021,87.378c21.728,13.619,23.979,39.944,8.423,55.957
+        L849.683,941.016c-15.056,15.44-35.058,20.631-54.491,20.654c-85.948-2.575-167.158-44.759-233.862-88.11
+        C451.84,793.907,351.407,695.114,288.355,575.757c-24.182-50.05-52.589-113.91-49.878-169.774
+        c0.242-21.016,5.928-41.605,20.728-55.151l101.953-101.953C369.1,242.121,376.957,238.768,384.375,238.33z"
+                />
+              </svg>
             </span>
-          </li>
-          <li class="my-projects-item">
-            <span class="my-projects-text">
-              <a href="https://github.com/v-las/postman-practice/blob/master/HW_02/star_task_code.md" class="my-projects-link" target="_blank" rel="noopener noreferrer">Задача | "Цикл запросов"</a> ......... <span class="my-projects-bracket">[</span>Postman<span class="my-projects-bracket">]</span>
+            <span class="contact-text"
+              >+7 913 619 83 92
+              <span class="contact-extra">(Россия)</span></span
+            >
+          </a>
+          <a class="contact-button" href="mailto:mastykash.vlas@gmail.com">
+            <span class="icon-bg">
+              <svg
+                width="24"
+                height="24"
+                aria-hidden="true"
+                focusable="false"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 326.234 326.234"
+              >
+                <g>
+                  <path
+                    d="M162.162,119.717c-24.814,0-42.836,18.773-42.836,44.622c0,26.145,17.611,44.394,42.836,44.394
+          s42.842-18.249,42.842-44.394C205.004,138.49,186.984,119.717,162.162,119.717z"
+                  />
+                  <path
+                    d="M163.121,0.007C73.029,0.007,0,73.043,0,163.124C0,253.2,73.029,326.228,163.121,326.228
+          c90.07,0,163.113-73.027,163.113-163.104C326.234,73.043,253.191,0.007,163.121,0.007z M230.502,231.205
+          c-12.547,0-22.42-9.4-24.857-22.722c-0.043,0.051-0.086,0.094-0.129,0.139c-11.082,11.423-26.475,17.703-43.354,17.703
+          c-16.871,0-32.27-6.28-43.35-17.703c-11.014-11.357-17.078-27.077-17.078-44.283c0-17.201,6.059-32.958,17.063-44.372
+          c11.094-11.509,26.498-17.844,43.365-17.844c16.875,0,32.273,6.335,43.371,17.844c0.012,0.013,0.023,0.026,0.035,0.038
+          c1.217-3.415,4.471-5.868,8.309-5.868c4.85,0,8.801,3.935,8.801,8.795v79.09c0,7.524,4.029,11.589,7.824,11.589
+          c11.643,0,19.789-19.626,19.789-47.716c0-51.675-36.285-89.176-86.299-89.176c-51.023,0-88.041,37.221-88.041,88.51
+          c0,48.845,35.811,84.288,85.17,84.288c10.906,0,26.188-3.745,35.533-8.722c4.297-2.279,9.629-0.649,11.91,3.639
+          c2.275,4.285,0.646,9.619-3.65,11.897c-11.732,6.251-30.164,10.784-43.793,10.784c-28.6,0-54.727-10.261-73.539-28.894
+          c-18.844-18.663-29.225-44.592-29.225-72.992c0-29.573,10.629-56.555,29.945-75.973c19.35-19.431,46.229-30.131,75.69-30.131
+          c28.996,0,55.461,10.795,74.471,30.376c18.973,19.525,29.416,46.656,29.416,76.394
+          C267.879,205.572,253.201,231.205,230.502,231.205z"
+                  />
+                </g></svg
+            ></span>
+            <span class="contact-text">mastykash.vlas@gmail.com</span>
+          </a>
+          <a
+            class="contact-button"
+            href="https://t.me/v_las"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="icon-bg">
+              <svg
+                width="24"
+                height="24"
+                aria-hidden="true"
+                focusable="false"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM12.43 8.85893C11.2629 9.3444 8.93015 10.3492 5.43191 11.8733C4.86385 12.0992 4.56628 12.3202 4.53919 12.5363C4.4934 12.9015 4.95073 13.0453 5.57349 13.2411C5.6582 13.2678 5.74598 13.2954 5.83596 13.3246C6.44866 13.5238 7.27284 13.7568 7.70131 13.766C8.08996 13.7744 8.52375 13.6142 9.00266 13.2853C12.2712 11.079 13.9584 9.96381 14.0643 9.93977C14.1391 9.92281 14.2426 9.90148 14.3128 9.96385C14.3829 10.0262 14.3761 10.1443 14.3686 10.176C14.3233 10.3691 12.5281 12.0381 11.5991 12.9018C11.3095 13.171 11.1041 13.362 11.0621 13.4056C10.968 13.5034 10.8721 13.5958 10.78 13.6846C10.2108 14.2333 9.78393 14.6448 10.8036 15.3168C11.2937 15.6397 11.6858 15.9067 12.077 16.1731C12.5042 16.4641 12.9303 16.7543 13.4816 17.1157C13.6221 17.2078 13.7562 17.3034 13.8869 17.3965C14.3841 17.751 14.8308 18.0694 15.3826 18.0186C15.7033 17.9891 16.0345 17.6876 16.2027 16.7884C16.6002 14.6632 17.3816 10.0585 17.5622 8.16098C17.5781 7.99473 17.5582 7.78197 17.5422 7.68858C17.5262 7.59518 17.4928 7.46211 17.3714 7.3636C17.2276 7.24694 17.0057 7.22234 16.9064 7.22408C16.455 7.23204 15.7626 7.47282 12.43 8.85893Z"
+                />
+              </svg>
             </span>
-          </li>
-          <li class="my-projects-item">
-            <span class="my-projects-text">
-              <a href="https://github.com/v-las/python-practice/blob/main/Homeworks/HW_03/main.py" class="my-projects-link" target="_blank" rel="noopener noreferrer">Задача | "Обменник"</a> .................... <span class="my-projects-bracket">[</span>Python<span class="my-projects-bracket">]</span>
+            <span class="contact-text">Telegram</span>
+          </a>
+          <a
+            class="contact-button"
+            href="https://wa.me/79136198392"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="icon-bg">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 256 256"
+                fill="currentColor"
+              >
+                <g transform="translate(1.4066 1.4066) scale(2.81 2.81)">
+                  <path
+                    d="M 76.735 13.079 C 68.315 4.649 57.117 0.005 45.187 0 C 20.605 0 0.599 20.005 0.589 44.594 c -0.003 7.86 2.05 15.532 5.953 22.296 L 0.215 90 l 23.642 -6.202 c 6.514 3.553 13.848 5.426 21.312 5.428 h 0.018 c 0.001 0 -0.001 0 0 0 c 24.579 0 44.587 -20.007 44.597 -44.597 C 89.789 32.713 85.155 21.509 76.735 13.079 z M 27.076 46.217 c -0.557 -0.744 -4.55 -6.042 -4.55 -11.527 c 0 -5.485 2.879 -8.181 3.9 -9.296 c 1.021 -1.115 2.229 -1.394 2.972 -1.394 s 1.487 0.007 2.136 0.039 c 0.684 0.035 1.603 -0.26 2.507 1.913 c 0.929 2.231 3.157 7.717 3.436 8.274 c 0.279 0.558 0.464 1.208 0.093 1.952 c -0.371 0.743 -0.557 1.208 -1.114 1.859 c -0.557 0.651 -1.17 1.453 -1.672 1.952 c -0.558 0.556 -1.139 1.159 -0.489 2.274 c 0.65 1.116 2.886 4.765 6.199 7.72 c 4.256 3.797 7.847 4.973 8.961 5.531 c 1.114 0.558 1.764 0.465 2.414 -0.279 c 0.65 -0.744 2.786 -3.254 3.529 -4.369 c 0.743 -1.115 1.486 -0.929 2.507 -0.558 c 1.022 0.372 6.5 3.068 7.614 3.625 c 1.114 0.558 1.857 0.837 2.136 1.302 c 0.279 0.465 0.279 2.696 -0.65 5.299 c -0.929 2.603 -5.381 4.979 -7.522 5.298 c -1.92 0.287 -4.349 0.407 -7.019 -0.442 c -1.618 -0.513 -3.694 -1.199 -6.353 -2.347 C 34.934 58.216 27.634 46.961 27.076 46.217 z"
+                  />
+                </g>
+              </svg>
             </span>
-          </li>
-        </ol>
-      </div>
-      <div class="lang-section">
-        <h3 class="main-content-title">Языки</h3>
-        <h4 class="lang-name">English <span class="lang-pipe">|</span> <span class="lang-level">B1 Intermediate</span></h4>
-        <p class="lang-certificate-text">
-          EF SET <a class="lang-certificate-link" href="https://www.efset.org/cert/uFXUtr" target="_blank" rel="noopener noreferrer">Certificate</a> — 64/100 (C1 Advanced)
-        </p>
-        <h4 class="lang-name">Русский <span class="lang-pipe">|</span> <span class="lang-level">Родной</span></h4>
-      </div>
-      <div class="medu-section">
-        <h3 class="main-content-title">Образование</h3>
-        <h3 class="medu-college-name">Курс тестирования ПО Вадима Ксендзова</h3>
-        <h4 class="medu-college-faculty">Ручное тестирование ПО</h4>
-        <p class="medu-college-time">2021 — 2021 <span class="medu-college-time-pipe">|</span> Омск, Россия</p>
-        <h3 class="medu-college-name">ОмГТУ</h3>
-        <h4 class="medu-college-faculty">Кафедра химической технологии и биотехнологии</h4>
-        <p class="medu-college-time">2009 — 2012 <span class="medu-college-time-pipe">|</span> Омск, Россия</p>
-      </div>
-      <div class="mwxp-section">
-        <h3 class="main-content-title">Опыт работы</h3>
-        <div class="mwxp-company-block">
-          <h4 class="mwxp-position">Truck-driver <span class="mwxp-company">ip</span></h4>
-          <p class="mwxp-time">time 1 — time 2 <span class="mwxp-pipe">|</span> country</p>
-          <ul class="mwxp-duties">
-            <li class="mwxp-duty-item">All work and no play makes Jack a dull boy All work and no play makes Jack a dull boy All work and no play makes Jack a dull boy All work and no play makes Jack a dull boy All work and no play makes Jack a dull boy All work and no play makes Jack a dull boy</li>
+            <span class="contact-text">WhatsApp</span>
+          </a>
+          <a
+            class="contact-button"
+            href="https://www.linkedin.com/in/v-las/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="icon-bg">
+              <svg
+                width="24"
+                height="24"
+                aria-hidden="true"
+                focusable="false"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="-143 145 512 512"
+              >
+                <path
+                  d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M41.4,508.1H-8.5V348.4h49.9
+        V508.1z M15.1,328.4h-0.4c-18.1,0-29.8-12.2-29.8-27.7c0-15.8,12.1-27.7,30.5-27.7c18.4,0,29.7,11.9,30.1,27.7
+        C45.6,316.1,33.9,328.4,15.1,328.4z M241,508.1h-56.6v-82.6c0-21.6-8.8-36.4-28.3-36.4c-14.9,0-23.2,10-27,19.6
+        c-1.4,3.4-1.2,8.2-1.2,13.1v86.3H71.8c0,0,0.7-146.4,0-159.7h56.1v25.1c3.3-11,21.2-26.6,49.8-26.6c35.5,0,63.3,23,63.3,72.4V508.1z"
+                /></svg
+            ></span>
+            <span class="contact-text">LinkedIn</span>
+          </a>
+        </div>
+        <div class="soft-skills-section">
+          <h3 class="sidebar-title">Личные качества:</h3>
+          <ul class="skills-list">
+            <li class="skills-list-item">
+              <span class="skills-list-text">Усидчивый</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">Внимательный</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">Упорный</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">Обучаемый</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">Ответственный</span>
+            </li>
           </ul>
         </div>
-        <div class="mwxp-company-block">
-          <h4 class="mwxp-position">Expedition <span class="mwxp-company">or</span></h4>
-          <p class="mwxp-time">time 2 — time 3 <span class="mwxp-pipe">|</span> country</p>
-          <ul class="mwxp-duties">
-            <li class="mwxp-duty-item">All work and no play makes Jack a dull boy All work and no play makes Jack a dull boy</li>
+        <div class="tech-skills-section">
+          <h3 class="sidebar-title">Изучаю:</h3>
+          <ul class="skills-list">
+            <li class="skills-list-item">
+              <span class="skills-list-text">DevTools</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">PostgreSQL</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">GitBash</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">Charles</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">Fiddler</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">JMeter</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">Android Studio</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">Postman</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">Python</span>
+            </li>
           </ul>
         </div>
-        <div class="mwxp-company-block">
-          <h4 class="mwxp-position">Warehouse <span class="mwxp-company">or</span></h4>
-          <p class="mwxp-time">time 3 — time 4 <span class="mwxp-pipe">|</span> country</p>
-          <ul class="mwxp-duties">
-            <li class="mwxp-duty-item">All work and no play makes Jack a dull boy All work and no play makes Jack a dull boy All work and no play makes Jack a dull boy All work and no play makes Jack a dull boy All work and no play makes Jack a dull boy</li>
-          </ul>
+      </aside>
+      <div class="main-content-section">
+        <div class="about-me-section">
+          <h2 class="about-me-profession">Ручной тестировщик ПО</h2>
+          <h1 class="about-me-name">Влас Мастыкáш</h1>
+          <p class="about-me-description">
+            All work and no play makes Jack a dull boy All work and no play
+            makes Jack a dull boy All work and no play makes Jack a dull boy All
+            work and no play makes Jack a dull boy All work and no play makes
+            Jack a dull boy All work and no play makes Jack a dull boy
+          </p>
+        </div>
+        <div class="my-projects-section">
+          <h3 class="main-content-title">
+            Проекты <span class="main-content-title-bracket">—</span> GitHub
+          </h3>
+          <ol class="my-projects-list">
+            <li class="my-projects-item">
+              <span class="my-projects-text">
+                <a
+                  href="https://github.com/v-las/sql-practice/tree/main/SQL-ex"
+                  class="my-projects-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >24 задачи | SQL-ex.ru</a
+                >
+                ....................
+                <span class="my-projects-bracket">[</span>SQL<span
+                  class="my-projects-bracket"
+                  >]</span
+                >
+              </span>
+            </li>
+            <li class="my-projects-item">
+              <span class="my-projects-text">
+                <a
+                  href="https://github.com/v-las/postman-practice/blob/master/HW_02/star_task_code.md"
+                  class="my-projects-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Задача | "Цикл запросов"</a
+                >
+                ......... <span class="my-projects-bracket">[</span>Postman<span
+                  class="my-projects-bracket"
+                  >]</span
+                >
+              </span>
+            </li>
+            <li class="my-projects-item">
+              <span class="my-projects-text">
+                <a
+                  href="https://github.com/v-las/python-practice/blob/main/Homeworks/HW_03/main.py"
+                  class="my-projects-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Задача | "Обменник"</a
+                >
+                ....................
+                <span class="my-projects-bracket">[</span>Python<span
+                  class="my-projects-bracket"
+                  >]</span
+                >
+              </span>
+            </li>
+          </ol>
+        </div>
+        <div class="lang-section">
+          <h3 class="main-content-title">Языки</h3>
+          <h4 class="lang-name">
+            English <span class="lang-pipe">|</span>
+            <span class="lang-level">B1 Intermediate</span>
+          </h4>
+          <p class="lang-certificate-text">
+            EF SET
+            <a
+              class="lang-certificate-link"
+              href="https://www.efset.org/cert/uFXUtr"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Certificate</a
+            >
+            — 64/100 (C1 Advanced)
+          </p>
+          <h4 class="lang-name">
+            Русский <span class="lang-pipe">|</span>
+            <span class="lang-level">Родной</span>
+          </h4>
+        </div>
+        <div class="medu-section">
+          <h3 class="main-content-title">Образование</h3>
+          <h3 class="medu-college-name">
+            Курс тестирования ПО Вадима Ксендзова
+          </h3>
+          <h4 class="medu-college-faculty">Ручное тестирование ПО</h4>
+          <p class="medu-college-time">
+            2021 — 2021 <span class="medu-college-time-pipe">|</span> Омск,
+            Россия
+          </p>
+          <h3 class="medu-college-name">ОмГТУ</h3>
+          <h4 class="medu-college-faculty">
+            Кафедра химической технологии и биотехнологии
+          </h4>
+          <p class="medu-college-time">
+            2009 — 2012 <span class="medu-college-time-pipe">|</span> Омск,
+            Россия
+          </p>
+        </div>
+        <div class="mwxp-section">
+          <h3 class="main-content-title">Опыт работы</h3>
+          <div class="mwxp-company-block">
+            <h4 class="mwxp-position">
+              Truck-driver <span class="mwxp-company">ip</span>
+            </h4>
+            <p class="mwxp-time">
+              time 1 — time 2 <span class="mwxp-pipe">|</span> country
+            </p>
+            <ul class="mwxp-duties">
+              <li class="mwxp-duty-item">
+                All work and no play makes Jack a dull boy All work and no play
+                makes Jack a dull boy All work and no play makes Jack a dull boy
+                All work and no play makes Jack a dull boy All work and no play
+                makes Jack a dull boy All work and no play makes Jack a dull boy
+              </li>
+            </ul>
+          </div>
+          <div class="mwxp-company-block">
+            <h4 class="mwxp-position">
+              Expedition <span class="mwxp-company">or</span>
+            </h4>
+            <p class="mwxp-time">
+              time 2 — time 3 <span class="mwxp-pipe">|</span> country
+            </p>
+            <ul class="mwxp-duties">
+              <li class="mwxp-duty-item">
+                All work and no play makes Jack a dull boy All work and no play
+                makes Jack a dull boy
+              </li>
+            </ul>
+          </div>
+          <div class="mwxp-company-block">
+            <h4 class="mwxp-position">
+              Warehouse <span class="mwxp-company">or</span>
+            </h4>
+            <p class="mwxp-time">
+              time 3 — time 4 <span class="mwxp-pipe">|</span> country
+            </p>
+            <ul class="mwxp-duties">
+              <li class="mwxp-duty-item">
+                All work and no play makes Jack a dull boy All work and no play
+                makes Jack a dull boy All work and no play makes Jack a dull boy
+                All work and no play makes Jack a dull boy All work and no play
+                makes Jack a dull boy
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>
