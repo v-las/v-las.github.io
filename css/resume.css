@@ -33,15 +33,17 @@ body {
 }
 
 .contacts-section,
+.soft-skills-section,
 .tech-skills-section,
-.soft-skills-section {
+.qa-stack-section {
   margin: 20px 0 0 0;
   width: 100%;
 }
 
 .contacts-section,
 .soft-skills-section,
-.tech-skills-section {
+.tech-skills-section,
+.qa-stack-section {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 20px 25px;
   border-radius: 12px;
