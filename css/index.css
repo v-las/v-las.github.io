@@ -1,0 +1,7 @@
+body {
+    background-color: #40b5df;
+    background-image: url('../img/index/main-bg.jpg');
+    height: 100%;
+    margin: 0;
+    padding: 40px 0;
+}
