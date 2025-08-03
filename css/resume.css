@@ -11,16 +11,32 @@ body {
   background-color: #fff;
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  background-image: url("img/resume/cv_bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("../img/resume/cv_bg.jpg");
+  /* background-repeat: no-repeat;
+  background-size: cover; */
   min-height: 100vh;
+  position: relative; /* важно для псевдоэлемента */
+  z-index: 0;
+}
+
+.main-section::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* сокращение для top:0; right:0; bottom:0; left:0; */
+  background-color: rgba(255, 255, 255, 0.96); /* полупрозрачная белая вуаль */
+  z-index: 1;
+  pointer-events: none; /* чтобы клики не блокировались */
+}
+
+.main-section > * {
+  position: relative;
+  z-index: 2; /* чтобы контент был выше оверлея */
 }
 
 .sidebar-section {
   background-color: rgba(12, 81, 115);
   width: 370px;
-  padding: 40px 20px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -401,7 +417,7 @@ body {
 .mwxp-duty-item {
   font-weight: normal;
   font-size: 14px;
-  line-height: 23px;
+  line-height: 24px;
   color: #595959;
 }
 
