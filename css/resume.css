@@ -51,6 +51,9 @@ body {
 .contacts-section,
 .soft-skills-section,
 .tech-skills-section,
+.mwxp-section,
+.lang-section,
+.medu-section,
 .qa-stack-section {
   margin: 20px 0 0 0;
   width: 100%;
@@ -59,6 +62,9 @@ body {
 .contacts-section,
 .soft-skills-section,
 .tech-skills-section,
+.mwxp-section,
+.lang-section,
+.medu-section,
 .qa-stack-section {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 20px 25px;
@@ -159,12 +165,14 @@ body {
   text-decoration: underline;
 }
 
+.mwxp-duties,
 .skills-list {
   padding-left: 20px;
   margin: 0;
   list-style-type: disc;
 }
 
+.mwxp-duty-item,
 .skills-list-item {
   margin-bottom: 6px;
   color: #fb6d3a;
@@ -188,13 +196,6 @@ body {
   line-height: 27px;
   color: #000;
   margin-bottom: 10px;
-}
-
-.main-content-title-bracket {
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 27px;
-  color: #000;
 }
 
 .about-me-section {
@@ -275,23 +276,12 @@ body {
   flex-grow: 1;
 }
 
-.my-projects-bracket {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 24px;
-  color: black;
-  margin-left: 10px;
-}
-
-.lang-section {
-  margin-bottom: 50px;
-}
-
 .lang-name {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 10px;
+  color: white;
 }
 
 .lang-level {
@@ -303,7 +293,7 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  color: black;
+  color: white;
 }
 
 .lang-certificate-text {
@@ -318,8 +308,8 @@ body {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: black;
-  text-decoration: none;
+  color: white;
+  /* text-decoration: none; */
 }
 
 .lang-certificate-link:hover,
@@ -327,14 +317,10 @@ body {
   text-decoration: underline;
 }
 
-.medu-section {
-  margin-bottom: 50px;
-}
-
 .medu-college-name {
   font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 22px;
   color: #fb6d3a;
   margin-bottom: 10px;
 }
@@ -351,7 +337,7 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
-  color: #000;
+  color: white;
   margin-bottom: 10px;
 }
 
@@ -370,18 +356,19 @@ body {
   color: black;
 }
 
-.mwxp-section {
-  max-width: 525px;
-  margin-bottom: 45px;
-}
-
-.my-projects-project-block,
-.mwxp-company-block {
+.my-projects-project-block {
   margin-bottom: 20px;
 }
 
-.my-projects-project-name,
 .mwxp-position {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.my-projects-project-name {
   font-weight: bold;
   font-size: 18px;
   line-height: 24px;
@@ -407,14 +394,12 @@ body {
   line-height: 15px;
   color: black;
 }
-.my-projects-project-bullets,
-.mwxp-duties {
+.my-projects-project-bullets {
   padding-left: 20px;
   margin: 0;
 }
 
-.my-projects-project-main-text,
-.mwxp-duty-item {
+.my-projects-project-main-text {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -439,18 +424,12 @@ body {
   .about-me-description {
     max-width: 100%;
   }
-  .my-projects-section,
-  .mwxp-section {
+  .my-projects-section {
     max-width: 100%;
   }
 
   .my-projects-item {
     flex-direction: column;
     align-items: flex-start;
-
-    .my-projects-bracket {
-      margin-left: 0;
-      margin-top: 4px;
-    }
   }
 }
