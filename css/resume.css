@@ -51,6 +51,7 @@ body {
 .contacts-section,
 .soft-skills-section,
 .tech-skills-section,
+.mwxp-section,
 .qa-stack-section {
   margin: 20px 0 0 0;
   width: 100%;
@@ -59,6 +60,7 @@ body {
 .contacts-section,
 .soft-skills-section,
 .tech-skills-section,
+.mwxp-section,
 .qa-stack-section {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 20px 25px;
@@ -159,12 +161,14 @@ body {
   text-decoration: underline;
 }
 
+.mwxp-duties,
 .skills-list {
   padding-left: 20px;
   margin: 0;
   list-style-type: disc;
 }
 
+.mwxp-duty-item,
 .skills-list-item {
   margin-bottom: 6px;
   color: #fb6d3a;
@@ -370,18 +374,19 @@ body {
   color: black;
 }
 
-.mwxp-section {
-  max-width: 525px;
-  margin-bottom: 45px;
-}
-
-.my-projects-project-block,
-.mwxp-company-block {
+.my-projects-project-block {
   margin-bottom: 20px;
 }
 
-.my-projects-project-name,
 .mwxp-position {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.my-projects-project-name {
   font-weight: bold;
   font-size: 18px;
   line-height: 24px;
@@ -407,14 +412,12 @@ body {
   line-height: 15px;
   color: black;
 }
-.my-projects-project-bullets,
-.mwxp-duties {
+.my-projects-project-bullets {
   padding-left: 20px;
   margin: 0;
 }
 
-.my-projects-project-main-text,
-.mwxp-duty-item {
+.my-projects-project-main-text {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -439,8 +442,7 @@ body {
   .about-me-description {
     max-width: 100%;
   }
-  .my-projects-section,
-  .mwxp-section {
+  .my-projects-section {
     max-width: 100%;
   }
 
