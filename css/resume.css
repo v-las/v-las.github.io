@@ -12,8 +12,6 @@ body {
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   background-image: url("../img/resume/cv_bg.jpg");
-  /* background-repeat: no-repeat;
-  background-size: cover; */
   min-height: 100vh;
   position: relative; /* важно для псевдоэлемента */
   z-index: 0;
@@ -101,6 +99,22 @@ body {
   flex-shrink: 0;
   padding: 10px 14px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.photo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  /* padding: 20px 0;  */
+  box-sizing: border-box;
+}
+
+.photo-wrapper img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .contact-button:last-child {
@@ -406,17 +420,30 @@ body {
   color: #595959;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   .main-section {
     flex-direction: column;
-    width: 90%;
-    margin: 20px auto;
+    width: 100%;
+    margin: 0px;
+
   }
   .sidebar-section {
     width: 100%;
-    padding: 20px;
+    padding: 20px 0 0 0;
     align-items: flex-start;
   }
+  /* .sidebar-section img {
+    border-radius: 0px;
+  } */
+  .contacts-section,
+.soft-skills-section,
+.tech-skills-section,
+.mwxp-section,
+.lang-section,
+.medu-section,
+.qa-stack-section {
+  border-radius: 0px;
+}
   .main-content-section {
     padding: 20px;
     width: 100%;
