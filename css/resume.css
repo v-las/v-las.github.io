@@ -13,22 +13,22 @@ body {
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   background-image: url("../img/resume/cv_bg.jpg");
   min-height: 100vh;
-  position: relative; /* важно для псевдоэлемента */
+  position: relative;
   z-index: 0;
 }
 
 .main-section::before {
   content: "";
   position: absolute;
-  inset: 0; /* сокращение для top:0; right:0; bottom:0; left:0; */
-  background-color: rgba(255, 255, 255, 0.96); /* полупрозрачная белая вуаль */
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.96);
   z-index: 1;
-  pointer-events: none; /* чтобы клики не блокировались */
+  pointer-events: none;
 }
 
 .main-section > * {
   position: relative;
-  z-index: 2; /* чтобы контент был выше оверлея */
+  z-index: 2;
 }
 
 .sidebar-section {
@@ -107,7 +107,6 @@ body {
   align-items: center;
 
   width: 100%;
-  /* padding: 20px 0;  */
   box-sizing: border-box;
 }
 
@@ -135,10 +134,10 @@ body {
 }
 
 .icon-bg {
-  background-color: white; /* фон, который просвечивается в трубке */
-  width: 23px;
-  height: 23px;
-  border-radius: 50%;
+  background-color: white;
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -231,7 +230,6 @@ body {
 
 .about-me-profession-pipe {
   font-weight: normal;
-  /* font-size: 16px; */
   line-height: 20px;
   color: black;
 }
@@ -323,7 +321,6 @@ body {
   font-size: 12px;
   line-height: 15px;
   color: white;
-  /* text-decoration: none; */
 }
 
 .lang-certificate-link:hover,
@@ -420,30 +417,26 @@ body {
   color: #595959;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 912px) {
   .main-section {
     flex-direction: column;
     width: 100%;
     margin: 0px;
-
   }
   .sidebar-section {
     width: 100%;
     padding: 20px 0 0 0;
     align-items: flex-start;
   }
-  /* .sidebar-section img {
-    border-radius: 0px;
-  } */
   .contacts-section,
-.soft-skills-section,
-.tech-skills-section,
-.mwxp-section,
-.lang-section,
-.medu-section,
-.qa-stack-section {
-  border-radius: 0px;
-}
+  .soft-skills-section,
+  .tech-skills-section,
+  .mwxp-section,
+  .lang-section,
+  .medu-section,
+  .qa-stack-section {
+    border-radius: 0px;
+  }
   .main-content-section {
     padding: 20px;
     width: 100%;
