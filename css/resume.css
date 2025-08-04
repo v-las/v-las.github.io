@@ -78,6 +78,21 @@ body {
   margin-bottom: 10px;
 }
 
+.photo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.photo-wrapper img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .contact-button {
   display: flex;
   align-items: center;
@@ -101,21 +116,6 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.photo-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.photo-wrapper img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 .contact-button:last-child {
   margin-bottom: 0;
 }
@@ -133,7 +133,7 @@ body {
   fill: #fb6d3a;
 }
 
-.icon-bg {
+.contact-icon-bg {
   background-color: white;
   width: 26px;
   height: 26px;
@@ -145,7 +145,7 @@ body {
   flex-shrink: 0;
 }
 
-.icon-bg svg {
+.contact-icon-bg svg {
   width: 20px;
   height: 20px;
 }
@@ -176,6 +176,11 @@ body {
 .contact-link:hover,
 .contact-link:focus {
   text-decoration: underline;
+}
+
+hr.solid {
+  border: 0.5px solid #fb6d3a90;
+  margin: 0px 10px 10px 10px;
 }
 
 .mwxp-duties,
@@ -300,11 +305,15 @@ body {
   color: #fb6d3a;
 }
 
-.my-projects-project-title-pipe,
+.project-title-dash,
 .lang-pipe {
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  color: black;
+}
+
+.lang-pipe {
   color: white;
 }
 
@@ -336,7 +345,7 @@ body {
   margin-bottom: 10px;
 }
 
-.my-projects-project-block {
+.project-block {
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
@@ -367,7 +376,7 @@ body {
   color: black;
 }
 
-.my-projects-project-block {
+.project-block {
   margin-bottom: 20px;
 }
 
@@ -379,18 +388,18 @@ body {
   color: white;
 }
 
-.my-projects-project-name {
+.project-name {
   font-weight: bold;
   font-size: 18px;
   line-height: 24px;
   margin-bottom: 10px;
 }
 
-.my-projects-project-role,
+.project-role,
 .mwxp-company {
   color: #fb6d3a;
 }
-.my-projects-project-time,
+.project-time,
 .mwxp-time {
   font-weight: normal;
   font-size: 12px;
@@ -398,19 +407,19 @@ body {
   color: #a8a8a8;
   margin-bottom: 10px;
 }
-.my-projects-project-time-pipe,
+.project-time-pipe,
 .mwxp-pipe {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
   color: black;
 }
-.my-projects-project-bullets {
+.project-bullets {
   padding-left: 20px;
   margin: 0;
 }
 
-.my-projects-project-main-text {
+.project-main-text {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
